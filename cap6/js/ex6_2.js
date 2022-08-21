@@ -4,7 +4,7 @@ function montarDica() {
   var outDica = document.getElementById("outDica");
 
   //  obtém conteúdo do campo de entrada
-  var fruta = inFruta.value;
+  var fruta = inFruta.value.toUpperCase();
 
   // se vazio, exibe alerta, posiciona em inFruta e retorna
   if (fruta == "") {
